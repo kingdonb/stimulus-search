@@ -14,7 +14,8 @@ gem "uglifier"
 gem "webpacker"
 
 group :development, :test do
-  gem "byebug"
+  gem "pry-byebug"
+  gem 'pry-rails'
   gem "faker"
   gem 'shoulda-matchers'
   gem 'rspec-html-matchers'
