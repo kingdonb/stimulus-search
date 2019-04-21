@@ -16,6 +16,10 @@ gem "webpacker"
 group :development, :test do
   gem "byebug"
   gem "faker"
+  gem 'shoulda-matchers'
+  gem 'rspec-html-matchers'
+  gem 'rspec-rails'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
@@ -26,6 +30,7 @@ group :development do
 end
 
 group :test do
+  gem 'cucumber-rails', require: false
   gem "capybara"
   gem "selenium-webdriver"
   gem "chromedriver-helper"
