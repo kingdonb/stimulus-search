@@ -1,5 +1,7 @@
 Given("an environment variable provides an S3 URL") do
-  pending # Write code here that turns the phrase above into concrete actions
+  visit root_path
+  # binding.pry
+  pending
 end
 
 Given("the S3 URL has a list of student names") do
