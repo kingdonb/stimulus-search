@@ -13,6 +13,9 @@
 !/log/.keep
 !/tmp/.keep
 
+# Ignore cucumber reports/results.json file
+/features/reports/results.json
+
 # Ignore uploaded files in development
 /storage/*
 !/storage/.keep
